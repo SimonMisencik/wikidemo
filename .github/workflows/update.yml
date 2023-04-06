@@ -2,6 +2,8 @@ name: Update Wiki
 
 on:
   push:
+    paths:
+      - 'wiki/**'
     branches:
       - main
 
@@ -12,5 +14,5 @@ jobs:
     steps:
     - uses: OrlovM/Wiki-Action@v1
       with:
-        path: '/'
+        path: 'wiki'
         token: ${{ secrets.GITHUB_TOKEN }}
