@@ -1,1 +1,1 @@
-Welcome to the wikidemo wiki!
+Welcome to the wikidemo wiki bro!
